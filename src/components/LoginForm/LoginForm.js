@@ -175,6 +175,7 @@ const LoginForm = () => {
         .then((res) => {
           let userInfo = { ...user}
           userInfo.success = true;
+          userInfo.error = ''
           updateProfileName(user.name)
           setUser(userInfo)
           setUserLogged(userInfo)
@@ -206,6 +207,7 @@ const LoginForm = () => {
           let userInfo = { ...user, name: res.user.displayName}
           console.log(userInfo);
           userInfo.success = true;
+          userInfo.error = ''
           setUser(userInfo)
           setUserLogged(userInfo)
           history.replace(from);

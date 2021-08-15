@@ -1,8 +1,10 @@
 import React from 'react'
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import mapPic from '../../images/Map.png'
+
 
 const containerStyle = {
-  width: '400px',
+  width: '500px',
   height: '400px'
 };
 
@@ -40,7 +42,7 @@ function MyMap() {
         { /* Child components, such as markers, info windows, etc. */ }
         <></>
       </GoogleMap>
-  ) : <></>
+  ) : <> </>
 }
 
 export default React.memo(MyMap)
