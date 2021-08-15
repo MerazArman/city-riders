@@ -1,0 +1,50 @@
+/* .motor{
+    background-image: url(../../images/Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:200px 200px;
+    position: relative;
+    height: 330px;
+    border:1px solid red;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    
+}
+.car{
+    background-image: url(../../images/Frame-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 330px;
+    border:1px solid red;
+}
+
+.bus{
+    background-image: url(../../images/Frame-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    height: 330px;
+    border:1px solid red;
+} */
+
+
+.slider-image{
+    margin-top: 200px;
+   
+}
+.slider-image img{
+    border:1px solid red;
+    width:80%;
+    height: 250px;
+    background-color: #FFFFFF;
+    padding:60px;
+   
+}
+.slider-text{
+    position: absolute;
+    top:400px;
+    margin-left: 30px;   
+}

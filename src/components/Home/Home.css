@@ -1,0 +1,15 @@
+
+/* .container{
+    box-sizing: border-box;
+} */
+.bg-img{
+    background-image: url(../../images/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+    overflow: hidden;
+}
