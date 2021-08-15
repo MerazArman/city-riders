@@ -28,7 +28,7 @@ const Header = () => {
                       <Link to="/destination/2a" className="nav-link" >Destination</Link>
                   </li>
                   <li className="nav-item    mr-4">
-                      <Link to="/" className="nav-link" >Blog</Link>
+                      <Link to="/home" className="nav-link" >Blog</Link>
                   </li>
                   <li className="nav-item    mr-4">
                       <a className="nav-link" href="#blog">Contact</a>
@@ -37,7 +37,7 @@ const Header = () => {
                   <a className="nav-link" href="#about">About</a>
                   </li>
                   <li className="nav-item    mr-4">
-                   {userLogged.success && <a href="l" className="nav-link"> {userLogged.name} </a> }
+                   {userLogged.success && <a href="#home" className="nav-link"> {userLogged.name} </a> }
                   </li>
                   <li className="nav-item   ">
                   {
